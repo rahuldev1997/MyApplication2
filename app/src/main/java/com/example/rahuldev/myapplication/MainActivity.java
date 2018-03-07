@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "created a patch", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "created a branch", Toast.LENGTH_SHORT).show();
             }
         });
     }
